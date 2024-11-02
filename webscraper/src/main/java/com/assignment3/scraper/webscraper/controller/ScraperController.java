@@ -1,6 +1,5 @@
 package com.assignment3.scraper.webscraper.controller;
 
-import com.assignment3.scraper.webscraper.dto.ScrapedDataDTO;
 import com.assignment3.scraper.webscraper.service.ScraperService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -36,9 +35,4 @@ public class ScraperController {
                         .collect(Collectors.toList()));
     }
 
-    // Endpoint to fetch all scraped data with truncated fields
-    @GetMapping("/data")
-    public List<ScrapedDataDTO> getAllData() {
-        return scraperService.getAllScrapedData();
-    }
 }
