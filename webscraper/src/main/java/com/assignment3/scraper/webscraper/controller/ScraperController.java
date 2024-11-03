@@ -37,4 +37,13 @@ public class ScraperController {
                     .body("Failed to scrape URL: " + urlRequest.getUrl());
         }
     }
+
+    /**
+     * Endpoint to initiate scraping from the URLs file.
+     */
+    @PostMapping("/file")
+    public ResponseEntity<String> scrapeFromFile() {
+        scraperService.scrapeFromFile();
+        return ResponseEntity.ok("Scraping initiated for URLs in file.");
+    }
 }
