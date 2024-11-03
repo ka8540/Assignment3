@@ -31,7 +31,6 @@ This project involves scraping data from web pages, parsing HTML content to extr
 
    ```bash
    curl -i -X POST "http://localhost:8080/api/scrape/file"
-
    ```
 
 ## Project Idea
