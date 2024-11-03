@@ -29,7 +29,7 @@ This project involves scraping data from web pages, parsing HTML content to extr
    ```
 3. To pass a POST request for scraping, use:
 
-   ```
+   ```bash
    curl -i -X POST "http://localhost:8080/api/scrape/file"
 
    ```
