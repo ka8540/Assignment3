@@ -90,3 +90,23 @@ We have configured the pool to contain 10 threads. Each thread is dedicated to a
     ``` Assignment3/webscraper/scraped_data.csv```
 
 ## Output
+
+### Single-threaded Scraping Output (SS1.png):
+
+This output shows the sequential scraping process for multiple URLs, where each URL is handled one at a time.
+For each URL, there is a "Starting single-threaded scraping for URL" message followed by a "Completed single-threaded scraping for URL" message.
+Some URLs encountered issues, such as the "Failed to scrape URL" message for Facebook, likely due to restricted access or other network errors.
+The total time taken for the single-threaded scraping is shown as approximately 70734 ms (70.734 seconds), indicating the slower performance due to sequential processing.
+
+![Single-threaded Scraping Output](Images/SS1.png)
+
+### Thread-pooled Scraping Output (SS2.png, SS3.png, and SS4.png):
+
+These images showcase the parallelized scraping process, where multiple URLs are scraped simultaneously by utilizing a thread pool.
+Each thread logs the URL it is scraping, with labels like "on thread: pool-1-thread-X" to indicate the specific thread handling the task.
+There is also a "Failed to scrape URL" message for some URLs, such as Figma, with a specific HTTP error code (403), which means access is forbidden, indicating that not all pages could be scraped due to restrictions.
+The thread-pooled approach significantly improves performance, with a total time of only 5 ms for the entire scraping operation, demonstrating the efficiency gained from parallel processing.
+
+![Thread-pooled Scraping Output - Part 1](Images/SS2.png)
+![Thread-pooled Scraping Output - Part 2](Images/SS3.png)
+![Thread-pooled Scraping Output - Part 3](Images/SS4.png)
