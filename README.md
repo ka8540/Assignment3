@@ -8,12 +8,12 @@
 
 ## Project Overview
 
-Our project aims to implement a thread pool to improve the performance of web content scraping and parsing tasks. Specifically, we developed an application to scrape product information from an e-commerce website, such as Amazon, and store the extracted data in a database for display in a tabular format.
+Our project aims to implement a thread pool to improve the performance of web content scraping and parsing tasks. Specifically, we developed an application to scrape product information from e-commerce websites, such as Amazon, and store the extracted data in a CSV file for potential tabular display and further analysis.
 
 ### Project Domain
 
 **Web Content Scraping and Parsing**  
-This project involves scraping data from web pages, parsing HTML content to extract specific information (like product details), and storing it in a database. This data can be displayed in tables for further analysis.
+This project involves scraping data from web pages, parsing HTML content to extract specific information (like product details), and storing it in a CSV file. The data in the CSV file can then be utilized for further analysis, visualization, or processing as needed.
 
 ## Prerequisites
 
@@ -41,7 +41,7 @@ The goal of this project is to create a thread pool to handle performance-critic
 
 ### Task Selection
 
-Scraping and parsing HTML content to extract product information from e-commerce websites. This data is then stored in a database for display in tables.
+Scraping and parsing HTML content to extract product information from e-commerce websites. This data is then stored in a CSV file for easy access and analysis.
 
 ### Thread Pool
 
