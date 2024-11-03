@@ -2,9 +2,9 @@
 
 ## GROUP -4
 
-**Kush Jayesh Ahir**
-**Swetha Sajjala**
-**Bharathi Pandurangan**
+- **Kush Jayesh Ahir**
+- **Swetha Sajjala**
+- **Bharathi Pandurangan**
 
 ## Project Overview
 
