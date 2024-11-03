@@ -1,5 +1,11 @@
 # Assignment 3: Thread Pooling Implementation for Web Content Scraping
 
+## GROUP -4
+
+**Kush Jayesh Ahir**
+**Swetha Sajjala**
+**Bharathi Pandurangan**
+
 ## Project Overview
 
 Our project aims to implement a thread pool to improve the performance of web content scraping and parsing tasks. Specifically, we developed an application to scrape product information from an e-commerce website, such as Amazon, and store the extracted data in a database for display in a tabular format.
